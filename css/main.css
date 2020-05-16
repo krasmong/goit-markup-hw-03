@@ -1,0 +1,84 @@
+/*  цвет основного текста #757575  */
+/*  цвет заголовков #212121  */
+/*  цвет акцента #2196F3   */
+/*  белый цвет #FFFFFF    */
+/*  цвета в футере rgba(255, 255, 255, 0.6)
+                   rgba(255, 255, 255, 0.4) */
+
+/* Кнопка */
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* Герой */
+.hero {
+  background-color: grey;
+}
+.hero-title {
+  color: var(--primary-bg-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Секции */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Преимущества */
+.feature .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.feature .description {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+.works .title {
+  background-color: grey;
+  color: var(--primary-bg-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 11.14;
+  text-transform: uppercase;
+}
+
+/* Наша команда */
+.team .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team .position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+}
+
+/* Постоянные клиенты */
