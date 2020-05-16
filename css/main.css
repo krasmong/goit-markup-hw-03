@@ -5,8 +5,35 @@
 /*  цвета в футере rgba(255, 255, 255, 0.6)
                    rgba(255, 255, 255, 0.4) */
 
-/* Кнопка */
+/* Герой */
+.hero {
+  text-align: center;
+
+  outline: 1px solid tomato;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 46px;
+
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  background-color: grey;
+}
+
+/* Кнопка героя */
 .button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   color: #ffffff;
   background-color: var(--accent-color);
 
@@ -14,21 +41,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-}
-
-/* Герой */
-.hero {
-  background-color: grey;
-}
-.hero-title {
-  color: var(--primary-bg-color);
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 /* Секции */
@@ -78,7 +91,6 @@
 .team .position {
   font-size: 16px;
   line-height: 1.19;
-}
 }
 
 /* Постоянные клиенты */
