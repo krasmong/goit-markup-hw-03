@@ -45,7 +45,15 @@
 }
 
 /* Секции */
+
+.section {
+  padding-top: 94px;
+}
+
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -54,7 +62,22 @@
 }
 
 /* Преимущества */
+.feature {
+  display: flex;
+}
+
+.feature .item {
+  width: 278px;
+}
+
+.feature .item + .item {
+  margin-left: 30px;
+}
+
 .feature .title {
+  margin-top: 30px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -64,23 +87,80 @@
 }
 
 .feature .description {
+  margin-top: 10px;
+  margin-bottom: 0;
+
   font-size: 14px;
   line-height: 1.71;
 }
 
 /* Чем мы занимаемся */
+.works {
+  display: flex;
+}
+
+.works .item {
+  width: 380px;
+}
+
+.works .item + .item {
+  margin-left: 30px;
+}
+
+.works img {
+  display: block;
+}
+
 .works .title {
-  background-color: grey;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 27px;
+
+  background-color: rgba(47, 48, 58, 0.8);
   color: var(--primary-bg-color);
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 11.14;
+  line-height: 1.14;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /* Наша команда */
+.section.secondary-bg {
+  background-color: var(--secondary-bg-color);
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  padding-bottom: 94px;
+}
+
+.team .item {
+  width: 278px;
+  height: 422px;
+  background-color: var(--primary-bg-color);
+}
+
+.team .item + .item {
+  margin-left: 30px;
+}
+
+.team .list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.team img {
+  display: block;
+}
+
 .team .title {
+  margin-top: 30px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -89,8 +169,19 @@
 }
 
 .team .position {
+  margin-top: 10px;
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.19;
 }
 
 /* Постоянные клиенты */
+.clients {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section.clients {
+  padding: 94px;
+}
