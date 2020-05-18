@@ -101,7 +101,7 @@
 }
 
 .works .item {
-  width: 380px;
+  width: 370px;
 }
 
 .works .item + .item {
@@ -181,8 +181,4 @@
 .clients {
   display: flex;
   justify-content: space-evenly;
-}
-
-.section.clients {
-  padding: 94px;
 }
