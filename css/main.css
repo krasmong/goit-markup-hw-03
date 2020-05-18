@@ -66,10 +66,10 @@
 .feature {
   display: flex;
 }
-
+/* 
 .feature .item {
   width: 278px;
-}
+} */
 
 .feature .item + .item {
   margin-left: 30px;
@@ -100,9 +100,9 @@
   display: flex;
 }
 
-.works .item {
+/* .works .item {
   width: 370px;
-}
+} */
 
 .works .item + .item {
   margin-left: 30px;
@@ -139,8 +139,8 @@
 }
 
 .team .item {
-  width: 278px;
-  height: 422px;
+  /* width: 278px;
+  height: 422px; */
   background-color: var(--primary-bg-color);
 }
 
@@ -150,6 +150,8 @@
 
 .team .list {
   display: flex;
+  margin-top: 16px;
+  margin-bottom: 24px;
   justify-content: space-evenly;
   align-items: center;
 }
