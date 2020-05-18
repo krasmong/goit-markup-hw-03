@@ -170,22 +170,25 @@ a {
   color: #ffffff;
 }
 .address .link {
-  display: block;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
-.social-networks .item {
+.social-networks img {
   display: block;
 }
 
-.social-networks {
+.social-networks .item {
+  width: 207px;
+
   display: flex;
   margin-left: 179px;
-  justify-content: flex-start;
+
+  justify-content: center;
 }
 
 .join-in .item {
+  display: block;
+
   margin-left: 179px;
   color: #ffffff;
 
