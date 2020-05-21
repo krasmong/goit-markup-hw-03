@@ -2,6 +2,8 @@
 /*  цвет заголовков #212121  */
 /*  цвет акцента #2196F3   */
 /*  белый цвет #FFFFFF    */
+/*  цвет фона героя  rgba(47, 48, 58, 0.8);  */
+/*  цвет фона секции "Наша команда" #F5F4FA  */
 /*  цвета в футере rgba(255, 255, 255, 0.6)
                    rgba(255, 255, 255, 0.4) */
 
@@ -10,10 +12,14 @@
   text-align: center;
 
   outline: 1px solid tomato;
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .hero-title {
+  width: 646px;
   margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 46px;
 
   color: var(--primary-bg-color);
@@ -22,8 +28,6 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  background-color: grey;
 }
 
 /* Кнопка героя */

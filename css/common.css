@@ -31,6 +31,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -153,6 +159,8 @@ a {
 .container.footer {
   display: flex;
   padding-top: 48px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .address-list {
@@ -167,25 +175,16 @@ a {
   color: #ffffff;
 }
 .address .link {
+  display: block;
+  margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.social-networks img {
-  display: block;
-}
-
-.social-networks .item {
-  width: 207px;
-
+.social-networks {
   display: flex;
-  margin-left: 179px;
-
-  justify-content: center;
 }
 
 .join-in .item {
-  display: block;
-
   margin-left: 179px;
   color: #ffffff;
 
@@ -196,12 +195,11 @@ a {
 }
 
 .copyright {
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 21px;
   color: rgba(255, 255, 255, 0.4);
-
   font-size: 12px;
   line-height: 2;
   text-align: center;
-  padding-top: 18px;
-  padding-bottom: 21px;
-  border-top: 1px solid #000;
 }
