@@ -18,6 +18,12 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
@@ -29,12 +35,6 @@ body {
 /* Утилиты */
 a {
   text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .list {
