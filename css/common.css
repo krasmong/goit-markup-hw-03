@@ -168,8 +168,6 @@ a {
 }
 
 .address-list {
-  margin-right: 179px;
-
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -189,13 +187,14 @@ a {
 
 .social-networks {
   display: flex;
-  padding-top: 21px;
   justify-content: space-evenly;
 }
 
 .join-in > .item {
-  color: #ffffff;
+  display: block;
+  margin-bottom: 21px;
 
+  color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
