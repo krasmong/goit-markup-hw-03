@@ -104,16 +104,8 @@
   display: flex;
 }
 
-/* .works .item {
-  width: 370px;
-} */
-
 .works .item + .item {
   margin-left: 30px;
-}
-
-.works img {
-  display: block;
 }
 
 .works .title {
@@ -158,10 +150,6 @@
   margin-bottom: 24px;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.team img {
-  display: block;
 }
 
 .team .title {

@@ -17,21 +17,36 @@
   --button-bg-color: #f5f4fa;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
 }
 
-.portfolio {
-  padding-top: 93px;
+/* Кнопка фильтра */
+
+.filter-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-/* Кнопка фильтра */
+.filter-button > .item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .button {
   color: var(--title-text-color);
   background-color: var(--button-bg-color);
+
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
 
   font-family: inherit;
   font-weight: 500;
@@ -48,17 +63,38 @@
 
 /* Список работ  */
 
-.works img {
-  display: block;
+.works {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.works {
-  margin-top: 34px;
-  margin-bottom: 94px;
+.card {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
+
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .works .title {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
 
   color: var(--title-text-color);
